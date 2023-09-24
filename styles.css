@@ -57,7 +57,6 @@ header {
     opacity: 1;
 }
 .parallax {
-    position:static;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,7 +72,7 @@ header {
     font-size: 5em;
     color: #1b283a;
     text-shadow: 2px 4px 5px #f9f9f9;
-    z-index: 100;
+    
 }
 .sec {
     position: relative;
@@ -101,7 +100,38 @@ header {
 }
 .parallax img#left {
     transform: translateX(-282px);
+    
 }
 .parallax img#right {
-    transform: translateX(305px);
+    transform: translateX(305px); 
+}
+
+footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color:#1b283a;
+}
+.footer-text p{
+    font-size: 1rem;
+    background: #1b283a;
+    color: aqua;
+}
+.iconTop a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #48cae4;
+    padding: .5rem;
+    border-radius: .5rem;
+    transition: .5s ease-in-out;
+}
+.iconTop a:hover {
+    color: #48cae4;
+    box-shadow: 0 0 1rem #14213d;
+}
+.iconTop a i{
+    color: black;
+    font-size: 1.2rem;
 }

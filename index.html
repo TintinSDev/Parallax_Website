@@ -6,26 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parallax Website</title>
     <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="images/pexels-onur-bahadır-18055320.jpg" type="image/x-icon">
 </head>
 
 <body>
     <header>
-        <h2 class="logo">Logo</h2>
+        <h2 class="logo">Martin</h2>
         <nav class="navigation">
-            <a href="#" class="active">Home<span></span></a>
-            <a href="#">About<span></span></a>
-            <a href="#">Service<span></span></a>
-            <a href="#">Contact<span></span></a>
+            <a href="#home" class="active">Home<span></span></a>
+            <a href="#about">About<span></span></a>
+            <a href="#services">Service<span></span></a>
+            <a href="#contact">Contact<span></span></a>
         </nav>
     </header>
-    <section class="parallax">
+    <section class="parallax" id="home">
         <h2 id="text">TintinSDev Website</h2>
         <img src="images/palmr.png" id="left">
-        <img src="images/palmr.png" id="centre">
         <img src="images/palmr.png" id="right">
     </section>
-    <section class="sec">
+    <!--about section-->
+    <section class="sec" id="about">
         <h2>Full-Stack Developer</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis debitis laboriosam, consectetur praesentium
             quas sequi maiores perspiciatis illum illo voluptas nobis distinctio commodi omnis hic suscipit corporis,
@@ -60,6 +61,12 @@
     </section>
 
 </body>
+<footer class="footer-text">
+    <p>Copyright &copy; 2023 TintinSDev</p>
+    <div class="iconTop">
+        <a href="#home"><i class='bx bxs-up-arrow-circle' ></i></a>
+    </div>
+</footer>
 <script src="script.js"></script>
 
 </html>
